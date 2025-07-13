@@ -147,9 +147,9 @@ section > div {
 }
 
 .card1:hover {
-  transform: scale(1.06);
-  -webkit-transform: scale(1.06);
-  -moz-transform: scale(1.06);
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
   transition: transform 0.4s, 0.4s box-shadow;
   border-radius: 13px;
   z-index: 0;
@@ -189,13 +189,15 @@ ul ol {
 }
 
 .card1 .featured-image {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   border-top-left-radius: 13px;
   border-top-right-radius: 13px;
   width: 100%;
-  height: 300px;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  background-color: #f8f9fa;
+  padding: 15px;
 }
 
 @media only screen and (min-width: 1280px) {
@@ -221,25 +223,36 @@ ul ol {
     max-width: 300px;
     height: inherit;
     width: 100%;
+    object-fit: contain;
+    padding: 15px;
   }
 }
 
 @media only screen and (max-width: 992px) {
   .card1 .featured-image {
     width: 400px;
+    object-fit: contain;
+    height: 200px;
+    padding: 15px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .card1 .featured-image {
-    height: 400px;
+    height: 280px;
     width: 100%;
+    object-fit: contain;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 13px;
+    padding: 20px;
   }
 }
 
 @media only screen and (max-width: 401px) {
   .card1 .featured-image {
-    height: 300px;
+    height: 200px;
+    object-fit: contain;
+    padding: 15px;
   }
 }
 
@@ -369,7 +382,16 @@ ul ol {
 }
 
 .volunteerCard:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
+}
+
+/* Estilos para imágenes de tarjetas de voluntariado */
+.volunteerCard .card-img {
+  width: 100% !important;
+  height: 180px !important;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
 }
 
 .page-content {
@@ -562,9 +584,9 @@ ul ol {
   transition-delay: 1.7s;
 }
 .blog-slider__img {
-  width: 300px;
+  width: 240px;
   flex-shrink: 0;
-  height: 300px;
+  height: 240px;
   box-shadow: 4px 13px 30px 1px rgba(187, 132, 204, 0.1);
   border-radius: 20px;
   transform: translateX(-80px);
@@ -585,6 +607,7 @@ ul ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   display: block;
   opacity: 0;
   border-radius: 20px;
@@ -603,7 +626,7 @@ ul ol {
 }
 @media screen and (max-height: 500px) and (min-width: 992px) {
   .blog-slider__img {
-    height: 270px;
+    height: 200px;
   }
 }
 .blog-slider__content {

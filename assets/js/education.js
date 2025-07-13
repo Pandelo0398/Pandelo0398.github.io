@@ -6,7 +6,7 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "Data Science Bootcamp",
-    cardImage: "assets/images/personal/Logo The Bridge.png",
+    cardImage: "assets/certificates/data-science/Data Science - The Bridge School - I am a Data Scientist - 2022-12-27.png",
     moocLink: "assets/certificates/data-science/Data Science - The Bridge School - I am a Data Scientist - 2022-12-27.png",
     description: "Comprehensive Data Science program covering all aspects of data analysis and machine learning",
     institution: "The Bridge School",
@@ -14,7 +14,7 @@ const moocscards = [
   },
   {
     title: "Machine Learning",
-    cardImage: "assets/images/personal/Logo The Bridge.png",
+    cardImage: "assets/certificates/data-science/TheBridge_DataScience_MachineLearning_2022.png",
     moocLink: "assets/certificates/data-science/TheBridge_DataScience_MachineLearning_2022.png",
     description: "Advanced machine learning algorithms and techniques",
     institution: "The Bridge School",
@@ -22,7 +22,7 @@ const moocscards = [
   },
   {
     title: "Deep Learning",
-    cardImage: "assets/images/personal/Logo The Bridge.png",
+    cardImage: "assets/certificates/data-science/TheBridge_DataScience_DeepLearning_2022.png",
     moocLink: "assets/certificates/data-science/TheBridge_DataScience_DeepLearning_2022.png",
     description: "Neural networks and deep learning frameworks",
     institution: "The Bridge School",
@@ -30,7 +30,7 @@ const moocscards = [
   },
   {
     title: "MLOps",
-    cardImage: "assets/images/personal/Logo The Bridge.png",
+    cardImage: "assets/certificates/data-science/Data Science - The Bridge School - MLOps - 2022-12-27.png",
     moocLink: "assets/certificates/data-science/Data Science - The Bridge School - MLOps - 2022-12-27.png",
     description: "Machine Learning Operations and deployment strategies",
     institution: "The Bridge School",
@@ -38,7 +38,7 @@ const moocscards = [
   },
   {
     title: "Data Analysis",
-    cardImage: "assets/images/personal/Logo The Bridge.png",
+    cardImage: "assets/certificates/data-science/Data Science - The Bridge School - Data Analyst - 2022-12-27.png",
     moocLink: "assets/certificates/data-science/Data Science - The Bridge School - Data Analyst - 2022-12-27.png",
     description: "Statistical analysis and data interpretation techniques",
     institution: "The Bridge School",
@@ -46,7 +46,7 @@ const moocscards = [
   },
   {
     title: "Data Visualization",
-    cardImage: "assets/images/personal/Logo The Bridge.png",
+    cardImage: "assets/certificates/data-science/Data Science - The Bridge School - Data Visualization - 2022-12-27.png",
     moocLink: "assets/certificates/data-science/Data Science - The Bridge School - Data Visualization - 2022-12-27.png",
     description: "Creating effective visualizations and dashboards",
     institution: "The Bridge School",
@@ -54,7 +54,7 @@ const moocscards = [
   },
   {
     title: "Exploratory Data Analysis",
-    cardImage: "assets/images/personal/Logo The Bridge.png",
+    cardImage: "assets/certificates/data-science/TheBridge_DataScience_EDA_2022.png",
     moocLink: "assets/certificates/data-science/TheBridge_DataScience_EDA_2022.png",
     description: "Techniques for exploring and understanding datasets",
     institution: "The Bridge School",
@@ -62,7 +62,7 @@ const moocscards = [
   },
   {
     title: "TensorFlow & Keras",
-    cardImage: "assets/images/personal/Logo The Bridge.png",
+    cardImage: "assets/certificates/data-science/Data Science - The Bridge School - TensorFlow & Keras - 2022-12-27.png",
     moocLink: "assets/certificates/data-science/Data Science - The Bridge School - TensorFlow & Keras - 2022-12-27.png",
     description: "Deep learning with TensorFlow and Keras frameworks",
     institution: "The Bridge School",
@@ -70,7 +70,7 @@ const moocscards = [
   },
   {
     title: "Time Series Analysis",
-    cardImage: "assets/images/personal/Logo The Bridge.png",
+    cardImage: "assets/certificates/data-science/Data Science - The Bridge School - Time Series Analysis - 2022-12-27.png",
     moocLink: "assets/certificates/data-science/Data Science - The Bridge School - Time Series Analysis - 2022-12-27.png",
     description: "Advanced time series forecasting and analysis",
     institution: "The Bridge School",
@@ -78,7 +78,7 @@ const moocscards = [
   },
   {
     title: "Tableau",
-    cardImage: "assets/images/personal/Logo The Bridge.png",
+    cardImage: "assets/certificates/data-science/Data Science - The Bridge School - Tableau - 2022-12-27.png",
     moocLink: "assets/certificates/data-science/Data Science - The Bridge School - Tableau - 2022-12-27.png",
     description: "Business intelligence and data visualization with Tableau",
     institution: "The Bridge School",
@@ -86,7 +86,7 @@ const moocscards = [
   },
   {
     title: "GitHub",
-    cardImage: "assets/images/personal/Logo The Bridge.png",
+    cardImage: "assets/certificates/data-science/Data Science - The Bridge School - GitHub - 2022-12-27.png",
     moocLink: "assets/certificates/data-science/Data Science - The Bridge School - GitHub - 2022-12-27.png",
     description: "Version control and collaborative development with Git",
     institution: "The Bridge School",
@@ -94,12 +94,12 @@ const moocscards = [
   },
   {
     title: "Agile Methodology",
-    cardImage: "assets/images/personal/Logo The Bridge.png",
+    cardImage: "assets/certificates/data-science/TheBridge_DataScience_Agile_2022.png",
     moocLink: "assets/certificates/data-science/TheBridge_DataScience_Agile_2022.png",
     description: "Agile project management and scrum methodology",
     institution: "The Bridge School",
     year: "2022"
-  },
+  }
 ];
 
 const experience = [

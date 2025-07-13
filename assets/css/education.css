@@ -553,7 +553,64 @@ blockquote {
   
 }
 
-    /* Media Query  header/footer */
+/* Estilos específicos para el timeline de PUCMM */
+.timelineHeading4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  padding-right: 80px; /* Espacio para la fecha */
+}
+
+/* Ajuste para tarjetas timeline pares (lado derecho) */
+.timeline-item:nth-child(even) .timeline-content {
+  padding: 40px 30px 10px 30px;
+  min-height: 120px; /* Altura mínima para evitar superposición */
+}
+
+/* Ajuste específico para la fecha en tarjetas pares */
+.timeline-item:nth-child(even) .timeline-content .date {
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+/* Ajuste de contenido para tarjetas pares */
+.timeline-item:nth-child(even) .timeline-content .alignment {
+  position: relative;
+  text-align: left;
+  padding-right: 90px; /* Espacio adicional para la fecha */
+  padding-top: 5px;
+}
+
+/* Media queries para dispositivos pequeños */
+@media (max-width: 1200px) {
+  .timelineHeading4 {
+    font-size: 1.1rem;
+    padding-right: 70px;
+  }
+}
+
+@media (max-width: 991px) {
+  .timelineHeading4 {
+    font-size: 1rem;
+    padding-right: 60px;
+    line-height: 1.1;
+  }
+  
+  .timeline-item:nth-child(even) .timeline-content .alignment {
+    padding-right: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .timelineHeading4 {
+    font-size: 0.9rem;
+    padding-right: 50px;
+  }
+}
+
+/* Media Query  header/footer */
 
     @media (max-width: 768px) {
       .collapse navbar-collapse {
@@ -848,3 +905,32 @@ blockquote {
       text-align: center;
     }
   }
+  @media (max-width: 768px) {
+      /* Estilos específicos para la fecha del cuarto item (PUCMM) */
+.date4 {
+  background: #FF4081;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 8px 12px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 4px;
+  z-index: 15;
+  min-width: 80px;
+  text-align: center;
+}
+
+/* Estilos adicionales para el contenedor del cuarto timeline item */
+.timeline-item:nth-child(4) .timeline-content {
+  min-height: 140px;
+  padding: 50px 30px 20px 30px;
+}
+
+.timeline-item:nth-child(4) .timeline-content .alignment {
+  padding-right: 100px;
+  padding-top: 10px;
+}
+    }
