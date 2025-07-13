@@ -2,11 +2,33 @@
 <html lang="en" light-mode="dark">
 
 <head>
+    <!-- Swiper.js Carousel -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <style>
+        .swiper {
+            width: 100%;
+            min-height: 180px;
+            margin-bottom: 40px;
+        }
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .carousel-logo {
+            height: 180px;
+            width: auto;
+            border-radius: 22px;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.22);
+            background: #fff;
+            padding: 16px;
+        }
+    </style>
     <title>Jose Ml Pandelo | Education</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="data science education, derecho, digital business, jose pandelo, certifications, prevención blanqueo capitales" />
-    <meta name="description" content="Educación y certificaciones de Jose Ml Pandelo - Abogado especializado en Data Science, Digital Business y Prevención de Blanqueo de Capitales." />
+    <meta name="keywords" content="data science education, law, digital business, jose pandelo, certifications, anti-money laundering" />
+    <meta name="description" content="Education and certifications of Jose Ml Pandelo - Lawyer specialized in Data Science, Digital Business, and Anti-Money Laundering." />
 
     <!-- Robot.txt -->
     <meta name="robots" content="index,follow" />
@@ -15,7 +37,7 @@
 
     <meta property="og:site_name" content="https://pandelo0398.github.io/education.html">
     <meta property="og:title" content="Jose Ml Pandelo | Education">
-    <meta property="og:description" content="Educación y certificaciones de Jose Ml Pandelo - Abogado especializado en Data Science, Digital Business y Prevención de Blanqueo de Capitales.">
+    <meta property="og:description" content="Education and certifications of Jose Ml Pandelo - Lawyer specialized in Data Science, Digital Business, and Anti-Money Laundering.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://pandelo0398.github.io/education.html">
     <meta name="twitter:card" content="summary">
@@ -272,10 +294,45 @@
 
     <!-- Education Section  -->
     <section class="s2">
-        <div class="container-sm  edSection">
+        <div class="container-sm edSection">
+            <!-- Carrusel de logos con Swiper.js aún más arriba -->
+            <!-- Logos de centros educativos en fila horizontal -->
+            <div class="d-flex flex-column" style="width: 100%; min-height: 320px; justify-content: center;">
+                <div class="d-flex justify-content-center align-items-center" style="gap: 64px; margin: auto;">
+                    <img src="assets/images/personal/SBS Logo.jpg" 
+         alt="Spain Business School Logo" 
+         style="height: 180px; width: auto; object-fit: contain;"
+         data-aos="zoom-in-up" 
+         data-aos-delay="100" 
+         data-aos-duration="900">
+    
+    <img src="assets/images/personal/Logo The Bridge.png" 
+         alt="The Bridge School Logo" 
+         style="height: 180px; width: auto; object-fit: contain;"
+         data-aos="zoom-in-up" 
+         data-aos-delay="350" 
+         data-aos-duration="900">
+    
+    <img src="assets/images/personal/logo-unibe.jpg" 
+         alt="UNIBE Logo" 
+         style="height: 180px; width: auto; object-fit: contain;"
+         data-aos="zoom-in-up" 
+         data-aos-delay="600" 
+         data-aos-duration="900">
+    
+    <img src="assets/images/personal/EscudoPucmm.png" 
+         alt="PUCMM Logo" 
+         style="height: 180px; width: auto; object-fit: contain;"
+         data-aos="zoom-in-up" 
+         data-aos-delay="850" 
+         data-aos-duration="900">
+                </div>
+            </div>
             <div class="conatiner text-center mb-5">
                 <h1 class="head" data-aos="fade-up" data-aos-delay="300">Formal <span class="edu_background">Education</span></h1>
             </div>
+    <!-- Swiper.js Carousel Script -->
+    <!-- Eliminado Swiper.js, los logos se muestran en fila horizontal -->
             
     </section>
 
@@ -290,13 +347,14 @@
                 <div class="timeline-content js--fadeInLeft">
                     <div class="timeline-img-header" style="background-image: url('assets/images/personal/SBS Logo.jpg'); background-repeat: no-repeat; background-size: contain; background-position: center;"></div>
                     <div class="date date1">2023-2024</div>
+                    <!-- Logo eliminado de la tarjeta -->
                     <div>
                         <h2 class="timelineHeading">Spain Business School</h2>
-                        <h6>Master en Digital Business</h6>
-                        <li>Transformación digital empresarial</li>
-                        <li>Estrategias de negocio digital</li>
-                        <li>Marketing digital y e-commerce</li>
-                        <li>Innovación y nuevas tecnologías</li>
+                        <h6>Master in Digital Business</h6>
+                        <li>Digital business transformation</li>
+                        <li>Digital business strategies</li>
+                        <li>Digital marketing and e-commerce</li>
+                        <li>Innovation and new technologies</li>
                     </div>
                 </div>
             </div> 
@@ -331,11 +389,11 @@
                     <div class="date date3">2020</div>
                     <div class="align-third">
                         <h2 class="timelineHeading3">Universidad Iberoamericana (UNIBE)</h2>
-                        <h6>Certificado en Prevención de Blanqueo de Capitales</h6>
-                        <li>Certificación especializada</li>
-                        <li>Marco legal antiblanqueo</li>
-                        <li>Identificación de operaciones sospechosas</li>
-                        <li>Compliance y normativas</li>
+                        <h6>Certificate in Anti-Money Laundering Prevention</h6>
+                        <li>Specialized certification</li>
+                        <li>Anti-money laundering legal framework</li>
+                        <li>Suspicious transaction identification</li>
+                        <li>Compliance and regulations</li>
                     </div>
                 </div>
             </div>
@@ -351,12 +409,12 @@
                     <div class="date date4">2015-2020</div>
                     <div class="alignment">
                         <h3 class="timelineHeading4">Pontificia Universidad Católica Madre y Maestra (PUCMM)</h3>
-                        <h6>Licenciatura en Derecho</h6>
-                        <li>Carrera principal universitaria</li>
-                        <li>Derecho Civil y Comercial</li>
-                        <li>Derecho Constitucional</li>
-                        <li>Derecho Penal</li>
-                        <li>Derecho Laboral</li>
+                        <h6>Bachelor of Laws</h6>
+                        <li>Main university degree</li>
+                        <li>Civil and Commercial Law</li>
+                        <li>Constitutional Law</li>
+                        <li>Criminal Law</li>
+                        <li>Labor Law</li>
                     </div>
                 </div>
             </div>
@@ -368,7 +426,7 @@
 
     <!--Certificaciones-->
     <div id="mooc" class="container-fluid">
-        <h4 class="text-center pb-2 pt-5" data-aos="fade-up" data-aos-delay="300">Certificaciones <span class="edu_background">Profesionales</span></h4>
+        <h4 class="text-center pb-2 pt-5" data-aos="fade-up" data-aos-delay="300">Professional <span class="edu_background">Certifications</span></h4>
         <div class="row moocs">
             <!-- Dynamic Certificates Cards -->
         </div>

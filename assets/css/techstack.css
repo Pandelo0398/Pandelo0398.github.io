@@ -64,9 +64,14 @@ html[light-mode="light"] .tech_card{
 .tech_card img{
     width: 120px;
     height: 120px;
-    /* border: 1px solid black; */
-    /* box-shadow: 8px 8px 7px black; */
+    object-fit: contain;
+    background: #fff;
+    border: 1px solid #e0e0e0;
     border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    display: block;
+    margin: 0 auto;
     margin-bottom: 8px;
     padding: 20px;
     

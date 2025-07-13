@@ -5,54 +5,94 @@ AOS.init();
 const techStackCards = document.querySelector(".techstack-box");
 const techStack = [
   {
-    langImage: "assets/images/techstack-page/html.png",
-    langName: "HyperText Markup Language",
-    langDesc: "<li>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</li>",
-  },
-  {
-    langImage: "assets/images/techstack-page/css.png",
-    langName: "Cascading Style Sheets",
-    langDesc: "<li>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML</li>",
-  },
-  {
-    langImage: "assets/images/techstack-page/javascript.png",
-    langName: "JavaScript",
-    langDesc: "<li>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS</li>",
-  },
-  {
-    langImage: "assets/images/techstack-page/node.png",
-    langName: "Node",
-    langDesc: "<li>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser</li>",
-  },
-  {
     langImage: "assets/images/techstack-page/python.png",
     langName: "Python",
-    langDesc: "<li>Python is an interpreted high-level general-purpose programming language</li>",
+    langDesc: "<li>Versatile programming language for data science, AI, and backend development.</li>",
   },
   {
-    langImage: "assets/images/techstack-page/cpp.png",
-    langName: "C++",
-    langDesc: "<li>C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or C with Classes</li>",
+    langImage: "assets/images/techstack-page/pytorch.png",
+    langName: "PyTorch",
+    langDesc: "<li>Flexible and powerful deep learning framework for research and production.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/tensorflow.png",
+    langName: "TensorFlow",
+    langDesc: "<li>Machine learning framework for training and deploying models.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/dockers.png",
+    langName: "Docker",
+    langDesc: "<li>Containers for development, deployment, and application portability.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/kubernetes.png",
+    langName: "Kubernetes",
+    langDesc: "<li>Container orchestrator for application deployment and scalability.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/mlflow.png",
+    langName: "MLflow",
+    langDesc: "<li>Lifecycle management for machine learning models.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/airflow.png",
+    langName: "Airflow",
+    langDesc: "<li>Workflow and data pipeline orchestration.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/fastapi.png",
+    langName: "FastAPI",
+    langDesc: "<li>Modern and fast framework for building APIs with Python.</li>",
   },
   {
     langImage: "assets/images/techstack-page/git.png",
     langName: "Git",
-    langDesc: "<li>Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.</li>",
+    langDesc: "<li>Version control system for project management and collaboration.</li>",
   },
   {
-    langImage: "assets/images/techstack-page/bootstrap.png",
-    langName: "Bootstrap",
-    langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
+    langImage: "assets/images/techstack-page/huggingface.png",
+    langName: "Hugging Face",
+    langDesc: "<li>Transformers and Diffusers libraries for language models and image generation in AI.</li>",
   },
   {
-    langImage: "assets/images/techstack-page/react.png",
-    langName: "React",
-    langDesc: "<li>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components</li>",
+    langImage: "assets/images/techstack-page/nixtla.png",
+    langName: "Nixtla",
+    langDesc: "<li>Advanced tools for time series and forecasting.</li>",
   },
   {
-    langImage:"assets/images/techstack-page/c.png",
-    langName:"C",
-    langDesc:"<li>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system</li>"
+    langImage: "assets/images/techstack-page/shap.png",
+    langName: "SHAP",
+    langDesc: "<li>Model explainability using SHAP values.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/vllm.png",
+    langName: "vLLM",
+    langDesc: "<li>Efficient engine for inference of large language models.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/llamdaindex.png",
+    langName: "LlamaIndex",
+    langDesc: "<li>Infrastructure to efficiently connect data with LLM models.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/langchain.png",
+    langName: "LangChain",
+    langDesc: "<li>Framework for building applications with LLMs and intelligent agents.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/qwen.png",
+    langName: "Qwen",
+    langDesc: "<li>Multilingual LLM model from Alibaba for advanced AI tasks.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/nvidia.png",
+    langName: "NVIDIA CUDA",
+    langDesc: "<li>Technology for parallel computing with GPU, used to accelerate tensor operations in AI and deep learning.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/cicd.png",
+    langName: "CI/CD",
+    langDesc: "<li>Continuous integration and delivery to automate development workflows.</li>",
   },
 ];
 

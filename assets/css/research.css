@@ -804,3 +804,55 @@ a:hover {
     width: 60%;
   }
 }
+
+/* Under Construction Box Harmony Styles */
+.under-construction-box {
+  background: var(--uc-bg, #fff3cd);
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  max-width: 480px;
+  margin: 2em auto;
+  padding: 2em 1em;
+  transition: background 0.3s, color 0.3s;
+}
+.uc-title {
+  color: var(--uc-title, #b8860b);
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.uc-desc {
+  color: var(--uc-desc, #333);
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+.uc-list {
+  text-align: left;
+  color: var(--uc-list, #4e00bb);
+  font-size: 1.05em;
+  margin-bottom: 1em;
+}
+.uc-note {
+  color: var(--uc-note, #b8860b);
+  font-size: 1em;
+  font-weight: 500;
+}
+
+@media (prefers-color-scheme: dark) {
+  .under-construction-box {
+    background: #23232b !important;
+    border: 1px solid #34344a;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+  }
+  .uc-title {
+    color: #ffe082 !important;
+  }
+  .uc-desc {
+    color: #e0e0e0 !important;
+  }
+  .uc-list {
+    color: #90caf9 !important;
+  }
+  .uc-note {
+    color: #ffe082 !important;
+  }
+}
