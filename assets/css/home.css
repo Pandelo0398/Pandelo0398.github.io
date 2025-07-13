@@ -68,6 +68,13 @@ body{
   position: absolute;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
 .animated-text span {
   display: none;
   line-height: 1;

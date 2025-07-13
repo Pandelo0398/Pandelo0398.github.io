@@ -934,3 +934,121 @@ blockquote {
   padding-top: 10px;
 }
     }
+
+/* Carrusel de instituciones educativas */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section-title {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px 0;
+    margin: 40px 0;
+    position: relative;
+}
+.carousel-track {
+    display: flex;
+    width: 200%;
+    animation: slide-horizontal 15s linear infinite;
+    align-items: center;
+}
+.carousel-track:hover {
+    animation-play-state: paused;
+}
+.logo-item {
+    width: 180px;
+    height: 180px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+.logo-item:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    z-index: 10;
+    position: relative;
+}
+.logo-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1));
+}
+@keyframes slide-horizontal {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+.carousel-container::before,
+.carousel-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+.carousel-container::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0.1), transparent);
+}
+.carousel-container::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0.1), transparent);
+}
+.status {
+    text-align: center;
+    color: rgba(255,255,255,0.9);
+    margin-top: 20px;
+    font-size: 0.9rem;
+    animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+    0%, 100% { opacity: 0.7; }
+    50% { opacity: 1; }
+}
+@media (max-width: 768px) {
+    .logo-item {
+        width: 140px;
+        height: 140px;
+        margin: 0 20px;
+        padding: 15px;
+    }
+    .carousel-track {
+        animation-duration: 12s;
+    }
+}
+@media (max-width: 480px) {
+    .logo-item {
+        width: 120px;
+        height: 120px;
+        margin: 0 15px;
+        padding: 10px;
+    }
+    .carousel-track {
+        animation-duration: 10s;
+    }
+}
+.speed-slow { animation-duration: 20s; }
+.speed-normal { animation-duration: 15s; }
+.speed-fast { animation-duration: 10s; }
