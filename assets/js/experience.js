@@ -5,6 +5,13 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "AI Engineer D2.1 (Mid Level)",
+    cardImage: "assets/images/experience-page/logo-indra-soci-institucional-png.webp",
+    place: "Indra",
+    time: "(Aug 2024 – Present)",
+    desp: "<li>Implementation of Artificial Intelligence models (ML and LLMs).</li><li>Design of infrastructure and architecture for AI solution deployment.</li><li>Active involvement in system vision and technical decision-making.</li><li>Focus on ML-Ops and LLM-Ops for project robustness and scalability.</li><li>Work on critical systems and Edge Computing.</li>",
+  },
+  {
     title: "Research Engineer, BI-ML/Ops, Data Engineer",
     cardImage: "assets/images/experience-page/imdeanetworks.png",
     place: "IMDEA Networks Institute",

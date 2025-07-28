@@ -15,7 +15,7 @@ const techStack = [
     langDesc: "<li>Flexible and powerful deep learning framework for research and production.</li>",
   },
   {
-    langImage: "assets/images/techstack-page/tensorflow.png",
+    langImage: "assets/images/techstack-page/TensorFlow.png",
     langName: "TensorFlow",
     langDesc: "<li>Machine learning framework for training and deploying models.</li>",
   },
@@ -40,7 +40,7 @@ const techStack = [
     langDesc: "<li>Workflow and data pipeline orchestration.</li>",
   },
   {
-    langImage: "assets/images/techstack-page/fastapi.png",
+    langImage: "assets/images/techstack-page/FastAPI.png",
     langName: "FastAPI",
     langDesc: "<li>Modern and fast framework for building APIs with Python.</li>",
   },
@@ -50,7 +50,7 @@ const techStack = [
     langDesc: "<li>Version control system for project management and collaboration.</li>",
   },
   {
-    langImage: "assets/images/techstack-page/huggingface.png",
+    langImage: "assets/images/techstack-page/HuggingFace.png",
     langName: "Hugging Face",
     langDesc: "<li>Transformers and Diffusers libraries for language models and image generation in AI.</li>",
   },
@@ -80,7 +80,7 @@ const techStack = [
     langDesc: "<li>Framework for building applications with LLMs and intelligent agents.</li>",
   },
   {
-    langImage: "assets/images/techstack-page/qwen.png",
+    langImage: "assets/images/techstack-page/Qwen.png",
     langName: "Qwen",
     langDesc: "<li>Multilingual LLM model from Alibaba for advanced AI tasks.</li>",
   },
@@ -94,15 +94,23 @@ const techStack = [
     langName: "CI/CD",
     langDesc: "<li>Continuous integration and delivery to automate development workflows.</li>",
   },
+  {
+    langImage: "assets/images/techstack-page/pyspark.png",
+    langName: "PySpark",
+    langDesc: "<li>Big data processing with Apache Spark in Python.</li>",
+  }
 ];
 
 const displayTechStacksCards = () => {
+  // Detectar modo oscuro
+  const isDark = document.body.getAttribute('light-mode') === 'dark';
+  const cardBg = isDark ? '#232323' : '#fff';
   const entireCardTemplate =
   techStack.map((stack)=> {
       return `        
     <div class="row page-content techstackcards" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="0" data-aos-duration="400"> 
         <div class="tech_card">
-            <div class="card_img">
+            <div class="card_img" style="background:${cardBg}; border-radius:12px; padding:8px; display:flex; align-items:center; justify-content:center;">
                 <img src ="${stack.langImage}" class="featured_image">
             </div>
             <div class="card_header">
