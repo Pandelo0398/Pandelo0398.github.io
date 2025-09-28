@@ -8,7 +8,7 @@ const exp = [
     title: "Research Engineer, BI-ML/Ops, Data Engineer",
     cardImage: "assets/images/experience-page/imdea.png",
     place: "IMDEA Networks Institute",
-    time: "(Aug 2023 – Present)",
+    time: "(Aug 2023 – 2025)",
     desp: "<li>Conducted data analysis on large-scale redundant databases to identify inefficiencies and optimize query responses.</li> <li>Developed proof-of-concept LLM-based solutions to improve information retrieval for business questions.</li> <li>Designed workflows for process automation and business intelligence reporting, improving decision-making efficiency.</li> <li>Integrated and optimized APIs for internal AI applications, facilitating data-driven insights across departments.</li> <li>Implementing and maintaining Kubernetes clusters for AI workloads, supporting scalable deployments.</li> <li>Developing and managing CI/CD pipelines for automating model training and deployment.</li> <li>Deploying and orchestrating workflows using Apache Airflow to streamline ML and data processing tasks.</li> <li>Utilizing MLflow as an interim solution for model tracking and deployment, planning migration to Kubeflow.</li>",
   },
   {
