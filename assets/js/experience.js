@@ -5,11 +5,11 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "AI Engineer D2.1 (Mid Level)",
+    title: "Consultant Grade II (D2.2) · Platform Architect",
     cardImage: "assets/images/experience-page/logo-indra-soci-institucional-png.webp",
-    place: "Indra",
+    place: "IndraMind, Indra Group",
     time: "(2025 – Present)",
-    desp: "<li>Implementation of Artificial Intelligence models (ML and LLMs).</li><li>Design of infrastructure and architecture for AI solution deployment.</li><li>Active involvement in system vision and technical decision-making.</li><li>Focus on ML-Ops and LLM-Ops for project robustness and scalability.</li><li>Work on critical systems and Edge Computing.</li>",
+    desp: "<li>Operational Platform Architect role for enterprise AI platform initiatives at IndraMind.</li><li>Design and implementation of integrated platform supports, connecting services, models, and business workflows.</li><li>Development and deployment of AI solutions with ML and LLM components across platform environments.</li><li>Ownership of platform architecture decisions, including scalability, reliability, and interoperability patterns.</li><li>Definition and standardization of MLOps/LLMOps flows, including CI/CD and orchestration for production-grade AI systems.</li><li>End-to-end integration of services into platform monitoring and AI governance capabilities, ensuring observability, traceability, and responsible AI adoption.</li><li>Work on critical systems and Edge Computing use cases with a strong operational focus.</li>",
   },
   {
     title: "Research Engineer, BI-ML/Ops, Data Engineer",
